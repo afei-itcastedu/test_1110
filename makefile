@@ -8,9 +8,8 @@ obj = $(patsubst %.c, %.o, $(src))
 clean: 
 	-rm -rf server $(obj)
 
-//this is a test for git hub
+
 123456789
-//this is a test for git hub
-//this is a test for git hub
+
 
 
