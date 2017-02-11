@@ -1,11 +1,6 @@
 src = $(wildcard *.c)
 obj = $(patsubst %.c, %.o, $(src))
 
-all: server
-
-server: server.o wrap.o
-	gcc server.o wrap.o -o server -Wall
-
 %.o:%.c
 	gcc -c $< -Wall
 
@@ -14,6 +9,7 @@ clean:
 	-rm -rf server $(obj)
 
 //this is a test for git hub
+123456789
 //this is a test for git hub
 //this is a test for git hub
 
