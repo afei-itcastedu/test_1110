@@ -7,9 +7,3 @@ obj = $(patsubst %.c, %.o, $(src))
 .PHONY: clean all
 clean: 
 	-rm -rf server $(obj)
-
-
-123456789
-
-
-
